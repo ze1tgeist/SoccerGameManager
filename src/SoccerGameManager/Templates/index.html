@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="gameApp" >
+<head>
+    <meta charset="utf-8" />
+    <title>Soccer Game Manager</title>
+    <!-- jquery -->
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap-theme.css" />
+    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!-- angularJS -->
+    <script type="text/javascript" src="lib/angular2/angular.js"></script>
+
+    <!-- application -->
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-controller="gameController">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">{{test}}</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li ><a href="#"><span class="glyphicon glyphicon-play" /></a></li>
+        </ul>          
+    </nav>
+</body>
+</html>
